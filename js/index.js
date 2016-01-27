@@ -212,9 +212,9 @@ $('button').on('loadingEvent',function(){
   if ($('button').attr('class') ==='loading') {
     console.log('reload');
     //刷新
-  setTimeout(function(){
+
        location.reload();
-    },1300);
+
         
  
     
