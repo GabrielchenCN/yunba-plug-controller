@@ -1,7 +1,7 @@
-// Appkey: 5697113d4407a3cd028abead
-// topic: yunba_smart_plug
-// alias: smart_plug_0
-// devid: 1234567890
+// Appkey: your_appkey
+// topic: your_topic
+// alias: your_alias
+// devid: your_devid
 // 　　控制以及状态查询使用的 publish to alias 方法。
 
 // 　　状态上报使用的是　publish 方法。
@@ -17,10 +17,10 @@
 // {"status":<status>, "devid":"<smart-plug-device-id>"}
 
 var config = {
-  APPKEY: '5697113d4407a3cd028abead',
-  TOPIC: 'yunba_smart_plug',
-  ALIAS: 'smart_plug_0',
-  DEVID:'1234567890'
+  APPKEY: your_appkey,
+  TOPIC: your_topic,
+  ALIAS: your_alias,
+  DEVID: your_devid
 }
 var yunba = new Yunba({
   server: 'sock.yunba.io',
